@@ -13,7 +13,7 @@ doc = REXML::Document.new(file)
 # значением сумма трат полученных за этот день
 # отсортируем по возрастанию даты
 amount_by_day = Hash.new
-# Даалее в цикли наполним этоот массив
+# Далее в цикле наполним этоот массив
 # Пробежимся по нашему XML дереву по массиву expenses и наполним массив amount_by_day
 # значениями трат за каждый день
 # Для того чтобы пробежаться по всем элементам дерева в парсере REXML есть метод elements
@@ -43,7 +43,7 @@ amount_by_day.keys.sort.each do |key|
   sum_by_month[key.strftime("%B %Y")] ||= 0
   sum_by_month[key.strftime("%B %Y")] += amount_by_day[key]
 end
-# выводим заголовок для первого месяца
+# выводим заголовок для первого месяца!
 puts "-----[#{current_month}, всего отрачено: #{sum_by_month[current_month]} р.] -----"
 
 amount_by_day.keys.sort.each do |key|
