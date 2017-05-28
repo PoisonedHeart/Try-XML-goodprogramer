@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<expenses>
+  <expense date = "9.7.2015" category = "Образование" amount = "900"> Книжка по Ruby он Rails </expense>
+  <expense date = "1.7.2015" category = "Образование" amount = "1800"> Книжка по HTML </expense>
+  <expense date = "12.8.2015" category = "Образование" amount = "2500"> Книжка по XML </expense>
+  <expense date = "23.3.2017" category = "Образование" amount = "700"> Книжка по XML </expense>
+</expenses>
